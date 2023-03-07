@@ -1,0 +1,123 @@
+#eredmeny td{
+    width: 55px;
+    height: 55px;
+    border: 1px solid purple; 
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+#eredmeny
+{
+     height: 100vh;
+     display: grid;
+     place-items: center;
+}
+ 
+  
+#gombok
+{
+    border: 1px solid black;
+    color: blueviolet;
+   
+}
+body
+{
+    display: grid;
+     place-items: center;
+     background-color: black;
+}
+#gomb2
+{
+    background-color: blueviolet;
+    border-radius: 0px 15px 0px 15px;
+}
+.modal-header
+{
+    background-color: black;
+    color: white;
+
+}
+.modal-header
+{
+    background-color: black;
+    color: blueviolet;
+
+}
+.modal-body
+{
+    background-color: black;
+    color: blueviolet;
+}
+.btn-close
+{
+    background-color: blueviolet;
+    color: blueviolet;
+}
+#gomb2  
+{
+    background-color: blueviolet;
+    border-radius: 0px 15px 0px 15px;
+    display: grid;
+    width: 330px;
+    height: 30px;
+    
+}
+.col-6
+{
+color: white;
+}
+
+h1
+{
+    text-align: center;
+}
+.center
+{
+    text-align: center;
+}
+body {
+    padding: 30px;
+    display: grid;
+    place-items: center;
+}
+
+code {
+    padding: 5px 8px;
+    border-radius: 18px;
+    background: #f8f9f9;
+    color: #cc0066;
+}
+
+[type='color'] {
+    appearance: none;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    border: none;
+}
+
+[type='color']::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+[type='color']::-webkit-color-swatch {
+    border: none;
+}
+
+.color-picker {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #f8f9f9;
+}
+div #keret
+{
+    padding: white 20px;    
+}
+
+#center
+{
+    display: grid;
+    place-items: center;
+}

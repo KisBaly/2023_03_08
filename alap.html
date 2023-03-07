@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="alap.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="alap.js"></script>
+    <title>4MŐ34</title>
+</head>
+<body>
+  <br>
+    
+      </div>
+      <div class="container">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+          <div class="col-md-8">
+            <input type="button" value="Generálás" data-bs-toggle="modal" href="#exampleModalToggle" id="gomb2">
+          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Adaja meg a játéktér hosszát és magsságát</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="gombok">
+                    <br><br>
+                    <label for="sor">SOROK: </label>
+                    <input type="number" id = "sor" placeholder="Adja meg hogy háhy soros legyen a tábla" min="3" max = "15" name="sor"> </input>
+                    <br><br>
+                    <label for="oszlop">OSZLOP: </label>
+                    <input type="number" id = "oszlop" placeholder="Adja meg hogy háhy oszlopos legyen a tábla"  min="3" max = "15" name="oszlop"> </input>
+                    <br><br>
+                    <h1>Játékos beállítások:</h1>
+                    <div class="container text-center">
+                      <div class="row">
+                        <div class="col">
+                          <span class="color-picker">
+                            <label for="colorPicker">
+                                <input type="color" value="#1DB8CE" id="colorPicker">
+                            </label>
+                        </span>
+                        </div>
+                      </div>
+                      </div>
+                    <br><br>
+                    <input type="button" value="Generálás" onclick="TablaGeneralas()" id="gomb2">
+                    <br><br>
+                    </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <input type="button" value="Reset" data-bs-toggle="modal" onclick="reset()" id="gomb2">
+          </div>
+          <div class="col-6 col-md-4" id="nyert">
+           Eltelt idő:
+          </div>
+        </div>
+      
+
+      
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row">
+          <div class="col-6">
+            <div id = "eredmeny" class="center">
+            </div>
+          </div>
+          <div class="col-6">
+            <br><br><br><br><br><br><br>
+            <h1>Info:</h1> 
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col" id="ido"><span id="ido"></span></th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+<!------------------------------------------------------------------------------------------------------------------------->
+      
+</body>
+
+</html>
